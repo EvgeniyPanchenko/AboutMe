@@ -14,6 +14,7 @@
 		6C409E2D26DBC930009C683F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C409E2B26DBC930009C683F /* LaunchScreen.storyboard */; };
 		6C409E3526DBCA24009C683F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C409E3426DBCA24009C683F /* LoginViewController.swift */; };
 		6C409E3726DBCA78009C683F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C409E3626DBCA78009C683F /* WelcomeViewController.swift */; };
+		6C409E3F26DBEE43009C683F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C409E3E26DBEE43009C683F /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6C409E2E26DBC930009C683F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C409E3426DBCA24009C683F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6C409E3626DBCA78009C683F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		6C409E3E26DBEE43009C683F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +60,57 @@
 		6C409E1F26DBC92F009C683F /* AboutMe */ = {
 			isa = PBXGroup;
 			children = (
-				6C409E2026DBC92F009C683F /* AppDelegate.swift */,
-				6C409E2226DBC92F009C683F /* SceneDelegate.swift */,
-				6C409E2626DBC92F009C683F /* Main.storyboard */,
-				6C409E3626DBCA78009C683F /* WelcomeViewController.swift */,
-				6C409E3426DBCA24009C683F /* LoginViewController.swift */,
-				6C409E2926DBC930009C683F /* Assets.xcassets */,
-				6C409E2B26DBC930009C683F /* LaunchScreen.storyboard */,
-				6C409E2E26DBC930009C683F /* Info.plist */,
+				6C409E3926DBE885009C683F /* ViewControllers */,
+				6C409E3D26DBE980009C683F /* Models */,
+				6C409E3A26DBE8B7009C683F /* Storyboards */,
+				6C409E3B26DBE8CE009C683F /* Resources */,
+				6C409E3C26DBE8EC009C683F /* App */,
 			);
 			path = AboutMe;
+			sourceTree = "<group>";
+		};
+		6C409E3926DBE885009C683F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6C409E3626DBCA78009C683F /* WelcomeViewController.swift */,
+				6C409E3426DBCA24009C683F /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6C409E3A26DBE8B7009C683F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6C409E2626DBC92F009C683F /* Main.storyboard */,
+				6C409E2B26DBC930009C683F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6C409E3B26DBE8CE009C683F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C409E2926DBC930009C683F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6C409E3C26DBE8EC009C683F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6C409E2026DBC92F009C683F /* AppDelegate.swift */,
+				6C409E2226DBC92F009C683F /* SceneDelegate.swift */,
+				6C409E2E26DBC930009C683F /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6C409E3D26DBE980009C683F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6C409E3E26DBEE43009C683F /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +186,7 @@
 				6C409E3526DBCA24009C683F /* LoginViewController.swift in Sources */,
 				6C409E3726DBCA78009C683F /* WelcomeViewController.swift in Sources */,
 				6C409E2126DBC92F009C683F /* AppDelegate.swift in Sources */,
+				6C409E3F26DBEE43009C683F /* User.swift in Sources */,
 				6C409E2326DBC92F009C683F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +336,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J646KA8Y97;
-				INFOPLIST_FILE = AboutMe/Info.plist;
+				INFOPLIST_FILE = AboutMe/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J646KA8Y97;
-				INFOPLIST_FILE = AboutMe/Info.plist;
+				INFOPLIST_FILE = AboutMe/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
