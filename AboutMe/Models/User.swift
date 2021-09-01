@@ -6,21 +6,15 @@
 //
 
 struct User {
-    let user: String
+    let login: String
     let password: String
-    let persons: [Person]
+    let person: Person
     
-    static func getUsers() -> User {
+    static func getUser() -> User {
         User(
-            user: "User",
+            login: "User",
             password: "Password",
-            persons: [
-                Person(
-                    name: "Евгений",
-                    surname: "Панченко",
-                    hobbys: "Вот так"
-                )
-            ]
+            person: Person.getPerson()
         )
     }
 }
@@ -28,5 +22,14 @@ struct User {
 struct Person {
     let name: String
     let surname: String
-    let hobbys: String
+    let image: String
+    
+    var fullName: String {
+        "\(name) \(surname)"
+    }
+    
+    static func getPerson() -> Person {
+        Person(name: "Evgeniy", surname: "Panchenko", image: "EvgeniyPhoto")
+    }
+    
 }

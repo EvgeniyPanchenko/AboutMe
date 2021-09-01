@@ -15,6 +15,8 @@
 		6C409E3526DBCA24009C683F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C409E3426DBCA24009C683F /* LoginViewController.swift */; };
 		6C409E3726DBCA78009C683F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C409E3626DBCA78009C683F /* WelcomeViewController.swift */; };
 		6C409E3F26DBEE43009C683F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C409E3E26DBEE43009C683F /* User.swift */; };
+		6CA6038526DFB9B300D08E9A /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA6038426DFB9B300D08E9A /* UserInfoViewController.swift */; };
+		6CA6038726DFB9FD00D08E9A /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA6038626DFB9FD00D08E9A /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		6C409E3426DBCA24009C683F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6C409E3626DBCA78009C683F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		6C409E3E26DBEE43009C683F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6CA6038426DFB9B300D08E9A /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		6CA6038626DFB9FD00D08E9A /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = AboutMe/ViewControllers/ImageViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			children = (
 				6C409E3626DBCA78009C683F /* WelcomeViewController.swift */,
 				6C409E3426DBCA24009C683F /* LoginViewController.swift */,
+				6CA6038426DFB9B300D08E9A /* UserInfoViewController.swift */,
+				6CA6038626DFB9FD00D08E9A /* ImageViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -184,7 +190,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C409E3526DBCA24009C683F /* LoginViewController.swift in Sources */,
+				6CA6038526DFB9B300D08E9A /* UserInfoViewController.swift in Sources */,
 				6C409E3726DBCA78009C683F /* WelcomeViewController.swift in Sources */,
+				6CA6038726DFB9FD00D08E9A /* ImageViewController.swift in Sources */,
 				6C409E2126DBC92F009C683F /* AppDelegate.swift in Sources */,
 				6C409E3F26DBEE43009C683F /* User.swift in Sources */,
 				6C409E2326DBC92F009C683F /* SceneDelegate.swift in Sources */,
